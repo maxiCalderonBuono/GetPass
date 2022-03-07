@@ -72,7 +72,7 @@ li{
 }
 
 .btn {
-    background-color: var(--primary);
+    background-color: var(--secondary);
     border: none;
   
     color: var(--text);
@@ -89,7 +89,7 @@ li{
 }
 
 .btn:hover {
-    background-color: var(--light)
+    background-color: var(--tertiary)
 }
 
 .empty-text {
