@@ -18,7 +18,7 @@
     <header class="header">
         <div class="navHeader">
             <a th:href="#" class="navLogo">
-                <img class="logo" src="assets/images/logo.jpeg" alt="">
+                <img class="logo" src="assets/images/logo-png.png" alt="">
                 <h1 class="title">GetPass</h1>
             </a>
             <div class="navUser">
@@ -36,7 +36,7 @@
             </ul>
         </nav>
     </header>
-    <div class="splide">
+    <div class="splide mb-3">
         <div class="splide__track">
             <ul class="splide__list">
                 <li class="splide__slide">
@@ -54,16 +54,27 @@
                 <li class="splide__slide">
                     <img src="assets/images/evento-festival.jpg" alt="">
                 </li>
-               
+
             </ul>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
     <script src="slider.js"></script>
 
+    <form class="searching mb-5">
+
+        <label for="search-text">Encontra los mejores eventos en tu ciudad</label>
+        <input id="search-text" type="text" class="search-text col-10" autocomplete="off" placeholder="Buscar evento" name="">
+
+    </form>
+
+    <section class="suscribe mb-5">
+        <button class="btn-suscribe btn-success">SUSCRIBITE</button>
+    </section>
+
     <section class="row p-3 g-4">
 
-        <div class="col-lg-3 animate__animated animate__pulse">
+        <div class="col-lg-3 animate__animated animate__pulse mb-5">
             <div class="card mb-3 h-100">
 
                 <img class="card-img-top rounded"
@@ -72,15 +83,15 @@
 
                 <div class="card-body d-flex flex-column justify-content-between">
                     <h5 class="card-title">Cirque Du Soleil</h5>
-                    <h6 class="card-subtitle mb-2 text-muted"> Martes 12 de Marzo 22hs</h6>
-                    <p class="card-text">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina</p>
+                    <h6 class="card-subtitle mb-2"> Martes 12 de Marzo 22hs</h6>
+                    <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina</p>
                     <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
                 </div>
 
             </div>
         </div>
 
-        <div class="col-lg-3 animate__animated animate__pulse">
+        <div class="col-lg-3 animate__animated animate__pulse mb-5">
             <div class="card mb-3 h-100">
 
                 <img class="card-img-top"
@@ -88,15 +99,15 @@
                     alt="Card image">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <h5 class="card-title">"SEX" Viví Tu Experiencia</h5>
-                    <h6 class="card-subtitle mb-2 text-muted"> Viernes 25 de Febrero 22hs</h6>
-                    <p class="card-text">Teatro Melos, Villa Carlos Paz, Córdoba, Argentina</p>
+                    <h6 class="card-subtitle mb-2"> Viernes 25 de Febrero 22hs</h6>
+                    <p class="card-text text-muted">Teatro Melos, Villa Carlos Paz, Córdoba, Argentina</p>
                     <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
                 </div>
 
             </div>
         </div>
 
-        <div class="col-lg-3 animate__animated animate__pulse">
+        <div class="col-lg-3 animate__animated animate__pulse mb-5">
             <div class="card mb-3 h-100">
 
                 <img class="card-img-top rounded"
@@ -104,8 +115,8 @@
                     alt="Card image">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <h5 class="card-title">"Cenamos en La Cama"</h5>
-                    <h6 class="card-subtitle mb-2 text-muted"> Domingo 6 de Marzo 22hs</h6>
-                    <p class="card-text">Teatro Candilejas, Villa Carlos Paz, Provincia de Córdoba, Argentina</p>
+                    <h6 class="card-subtitle mb-2"> Domingo 6 de Marzo 22hs</h6>
+                    <p class="card-text text-muted">Teatro Candilejas, Villa Carlos Paz, Provincia de Córdoba, Argentina</p>
                     <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
                 </div>
 
@@ -113,7 +124,7 @@
             </div>
         </div>
 
-        <div class="col-lg-3 animate__animated animate__pulse">
+        <div class="col-lg-3 animate__animated animate__pulse mb-5">
             <div class="card mb-3 h-100">
 
                 <img class="card-img-top rounded"
@@ -121,8 +132,8 @@
                     alt="Card image">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <h5 class="card-title">La Pailoneta del Humor</h5>
-                    <h6 class="card-subtitle mb-2 text-muted"> Martes 12 de Marzo 22hs</h6>
-                    <p class="card-text">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina</p>
+                    <h6 class="card-subtitle mb-2"> Martes 12 de Marzo 22hs</h6>
+                    <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina</p>
                     <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
                 </div>
 
@@ -130,7 +141,7 @@
             </div>
         </div>
 
-        <div class="col-lg-3 animate__animated animate__pulse">
+        <div class="col-lg-3 animate__animated animate__pulse mb-5">
             <div class="card mb-3 h-100">
 
                 <img class="card-img-top rounded"
@@ -139,15 +150,15 @@
 
                 <div class="card-body d-flex flex-column justify-content-between">
                     <h5 class="card-title">Cirque Du Soleil</h5>
-                    <h6 class="card-subtitle mb-2 text-muted"> Martes 12 de Marzo 22hs</h6>
-                    <p class="card-text">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina</p>
+                    <h6 class="card-subtitle mb-2"> Martes 12 de Marzo 22hs</h6>
+                    <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina</p>
                     <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
                 </div>
 
             </div>
         </div>
 
-        <div class="col-lg-3 animate__animated animate__pulse">
+        <div class="col-lg-3 animate__animated animate__pulse mb-5">
             <div class="card mb-3 h-100">
 
                 <img class="card-img-top"
@@ -155,15 +166,15 @@
                     alt="Card image">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <h5 class="card-title">"SEX" Viví Tu Experiencia</h5>
-                    <h6 class="card-subtitle mb-2 text-muted"> Viernes 25 de Febrero 22hs</h6>
-                    <p class="card-text">Teatro Melos, Villa Carlos Paz, Córdoba, Argentina</p>
+                    <h6 class="card-subtitle mb-2"> Viernes 25 de Febrero 22hs</h6>
+                    <p class="card-text text-muted">Teatro Melos, Villa Carlos Paz, Córdoba, Argentina</p>
                     <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
                 </div>
 
             </div>
         </div>
 
-        <div class="col-lg-3 animate__animated animate__pulse">
+        <div class="col-lg-3 animate__animated animate__pulse mb-5">
             <div class="card mb-3 h-100">
 
                 <img class="card-img-top rounded"
@@ -171,8 +182,8 @@
                     alt="Card image">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <h5 class="card-title">"Cenamos en La Cama"</h5>
-                    <h6 class="card-subtitle mb-2 text-muted"> Domingo 6 de Marzo 22hs</h6>
-                    <p class="card-text">Teatro Candilejas, Villa Carlos Paz, Provincia de Córdoba, Argentina</p>
+                    <h6 class="card-subtitle mb-2"> Domingo 6 de Marzo 22hs</h6>
+                    <p class="card-text text-muted">Teatro Candilejas, Villa Carlos Paz, Provincia de Córdoba, Argentina</p>
                     <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
                 </div>
 
@@ -180,7 +191,7 @@
             </div>
         </div>
 
-        <div class="col-lg-3 animate__animated animate__pulse">
+        <div class="col-lg-3 animate__animated animate__pulse mb-5">
             <div class="card mb-3 h-100">
 
                 <img class="card-img-top rounded"
@@ -188,18 +199,35 @@
                     alt="Card image">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <h5 class="card-title">La Pailoneta del Humor</h5>
-                    <h6 class="card-subtitle mb-2 text-muted"> Martes 12 de Marzo 22hs</h6>
-                    <p class="card-text">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina</p>
+                    <h6 class="card-subtitle mb-2"> Martes 12 de Marzo 22hs</h6>
+                    <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina</p>
                     <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
                 </div>
 
 
             </div>
         </div>
-
-
 
     </section>
+
+    <footer>
+        <div class="top-footer">
+            <a th:href="#" class="navLogo">
+                <img class="logo" src="assets/images/logo-png.png" alt="">
+                <h1 class="title">GetPass</h1>
+            </a>
+
+            <div class="menu-options">
+                <a href="#" class="options">home</a>
+                <a href="#" class="options">acerca de nosotros</a>
+                <a href="#" class="options">ubicacion</a>
+                <a href="#" class="options">contacto</a>
+            </div>
+        </div>
+        <div>
+            <!-- fecha -->
+        </div>
+    </footer>
 </body>
 
 </html>
