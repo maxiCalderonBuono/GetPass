@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
@@ -58,21 +61,21 @@
             </ul>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
-    <script src="slider.js"></script>
+
 
     <form class="searching mb-5">
 
-        <label for="search-text">Encontra los mejores eventos en tu ciudad</label>
-        <input id="search-text" type="text" class="search-text col-10" autocomplete="off" placeholder="Buscar evento" name="">
+        <label for="search-text h1">ENCONTRÁ LOS MEJORES EVENTOS DE TU CIUDAD</label>
+        <input id="search-text" type="text" class="search-text col-10" autocomplete="off" placeholder="Buscar evento"
+            name="">
 
     </form>
 
     <section class="suscribe mb-5">
-        <button class="btn-suscribe btn-success">SUSCRIBITE</button>
+        <button class="btn-suscribe">SUSCRIBITE</button>
     </section>
 
-    <section class="row p-3 g-4">
+    <section class="row p-3 g-4 w-100 m-0">
 
         <div class="col-lg-3 animate__animated animate__pulse mb-5">
             <div class="card mb-3 h-100">
@@ -84,8 +87,9 @@
                 <div class="card-body d-flex flex-column justify-content-between">
                     <h5 class="card-title">Cirque Du Soleil</h5>
                     <h6 class="card-subtitle mb-2"> Martes 12 de Marzo 22hs</h6>
-                    <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina</p>
-                    <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
+                    <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina
+                    </p>
+                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
                 </div>
 
             </div>
@@ -101,7 +105,7 @@
                     <h5 class="card-title">"SEX" Viví Tu Experiencia</h5>
                     <h6 class="card-subtitle mb-2"> Viernes 25 de Febrero 22hs</h6>
                     <p class="card-text text-muted">Teatro Melos, Villa Carlos Paz, Córdoba, Argentina</p>
-                    <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
+                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
                 </div>
 
             </div>
@@ -116,8 +120,9 @@
                 <div class="card-body d-flex flex-column justify-content-between">
                     <h5 class="card-title">"Cenamos en La Cama"</h5>
                     <h6 class="card-subtitle mb-2"> Domingo 6 de Marzo 22hs</h6>
-                    <p class="card-text text-muted">Teatro Candilejas, Villa Carlos Paz, Provincia de Córdoba, Argentina</p>
-                    <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
+                    <p class="card-text text-muted">Teatro Candilejas, Villa Carlos Paz, Provincia de Córdoba, Argentina
+                    </p>
+                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
                 </div>
 
 
@@ -133,8 +138,9 @@
                 <div class="card-body d-flex flex-column justify-content-between">
                     <h5 class="card-title">La Pailoneta del Humor</h5>
                     <h6 class="card-subtitle mb-2"> Martes 12 de Marzo 22hs</h6>
-                    <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina</p>
-                    <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
+                    <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina
+                    </p>
+                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
                 </div>
 
 
@@ -151,8 +157,9 @@
                 <div class="card-body d-flex flex-column justify-content-between">
                     <h5 class="card-title">Cirque Du Soleil</h5>
                     <h6 class="card-subtitle mb-2"> Martes 12 de Marzo 22hs</h6>
-                    <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina</p>
-                    <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
+                    <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina
+                    </p>
+                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
                 </div>
 
             </div>
@@ -168,7 +175,7 @@
                     <h5 class="card-title">"SEX" Viví Tu Experiencia</h5>
                     <h6 class="card-subtitle mb-2"> Viernes 25 de Febrero 22hs</h6>
                     <p class="card-text text-muted">Teatro Melos, Villa Carlos Paz, Córdoba, Argentina</p>
-                    <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
+                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
                 </div>
 
             </div>
@@ -183,8 +190,9 @@
                 <div class="card-body d-flex flex-column justify-content-between">
                     <h5 class="card-title">"Cenamos en La Cama"</h5>
                     <h6 class="card-subtitle mb-2"> Domingo 6 de Marzo 22hs</h6>
-                    <p class="card-text text-muted">Teatro Candilejas, Villa Carlos Paz, Provincia de Córdoba, Argentina</p>
-                    <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
+                    <p class="card-text text-muted">Teatro Candilejas, Villa Carlos Paz, Provincia de Córdoba, Argentina
+                    </p>
+                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
                 </div>
 
 
@@ -200,8 +208,9 @@
                 <div class="card-body d-flex flex-column justify-content-between">
                     <h5 class="card-title">La Pailoneta del Humor</h5>
                     <h6 class="card-subtitle mb-2"> Martes 12 de Marzo 22hs</h6>
-                    <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina</p>
-                    <a href="#" class="btn btn-primary btn-sm">Comprar entradas</a>
+                    <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina
+                    </p>
+                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
                 </div>
 
 
@@ -209,6 +218,28 @@
         </div>
 
     </section>
+
+  
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <footer>
         <div class="top-footer">
@@ -217,17 +248,21 @@
                 <h1 class="title">GetPass</h1>
             </a>
 
-            <div class="menu-options">
-                <a href="#" class="options">home</a>
-                <a href="#" class="options">acerca de nosotros</a>
-                <a href="#" class="options">ubicacion</a>
-                <a href="#" class="options">contacto</a>
-            </div>
+            <ul class="menu-options">
+                <li class="options"><a href="#" >Home</a></li>
+                <li class="options"><a href="#" >Acerca de nosotros</a></li>
+                <li class="options"><a href="#" >Ubicación</a></li>
+                <li class="options"><a href="#" >Contacto</a></li>
+            </ul>
         </div>
-        <div>
-            <!-- fecha -->
+        <div class="bottom-footer">
+
         </div>
     </footer>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+<script src="slider.js"></script>
+<script src="copyright.js"></script>
 
 </html>
