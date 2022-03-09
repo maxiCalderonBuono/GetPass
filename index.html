@@ -19,6 +19,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
@@ -95,7 +96,8 @@
                     <h6 class="card-subtitle mb-2"> Martes 12 de Marzo 22hs</h6>
                     <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina
                     </p>
-                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
+                    <a href="#" class="btn btn-sm trigger" data-toggle="modal" data-target="#exampleModal">Comprar
+                        entradas</a>
                 </div>
 
             </div>
@@ -111,7 +113,8 @@
                     <h5 class="card-title">"SEX" Viví Tu Experiencia</h5>
                     <h6 class="card-subtitle mb-2"> Viernes 25 de Febrero 22hs</h6>
                     <p class="card-text text-muted">Teatro Melos, Villa Carlos Paz, Córdoba, Argentina</p>
-                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
+                    <a href="#" class="btn btn-sm trigger" data-toggle="modal" data-target="#exampleModal">Comprar
+                        entradas</a>
                 </div>
 
             </div>
@@ -128,7 +131,8 @@
                     <h6 class="card-subtitle mb-2"> Domingo 6 de Marzo 22hs</h6>
                     <p class="card-text text-muted">Teatro Candilejas, Villa Carlos Paz, Provincia de Córdoba, Argentina
                     </p>
-                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
+                    <a href="#" class="btn btn-sm trigger" data-toggle="modal" data-target="#exampleModal">Comprar
+                        entradas</a>
                 </div>
 
 
@@ -146,7 +150,8 @@
                     <h6 class="card-subtitle mb-2"> Martes 12 de Marzo 22hs</h6>
                     <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina
                     </p>
-                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
+                    <a href="#" class="btn btn-sm trigger" data-toggle="modal" data-target="#exampleModal">Comprar
+                        entradas</a>
                 </div>
 
 
@@ -165,7 +170,8 @@
                     <h6 class="card-subtitle mb-2"> Martes 12 de Marzo 22hs</h6>
                     <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina
                     </p>
-                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
+                    <a href="#" class="btn btn-sm trigger" data-toggle="modal" data-target="#exampleModal">Comprar
+                        entradas</a>
                 </div>
 
             </div>
@@ -181,7 +187,8 @@
                     <h5 class="card-title">"SEX" Viví Tu Experiencia</h5>
                     <h6 class="card-subtitle mb-2"> Viernes 25 de Febrero 22hs</h6>
                     <p class="card-text text-muted">Teatro Melos, Villa Carlos Paz, Córdoba, Argentina</p>
-                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
+                    <a href="#" class="btn btn-sm trigger" data-toggle="modal" data-target="#exampleModal">Comprar
+                        entradas</a>
                 </div>
 
             </div>
@@ -198,7 +205,8 @@
                     <h6 class="card-subtitle mb-2"> Domingo 6 de Marzo 22hs</h6>
                     <p class="card-text text-muted">Teatro Candilejas, Villa Carlos Paz, Provincia de Córdoba, Argentina
                     </p>
-                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
+                    <a href="#" class="btn btn-sm trigger" data-toggle="modal" data-target="#exampleModal">Comprar
+                        entradas</a>
                 </div>
 
 
@@ -216,7 +224,8 @@
                     <h6 class="card-subtitle mb-2"> Martes 12 de Marzo 22hs</h6>
                     <p class="card-text text-muted">Teatro Luxor, Avenida Libertad, Villa Carlos Paz, Cordoba, Argentina
                     </p>
-                    <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#exampleModal">Comprar entradas</a>
+                    <a href="#" class="btn btn-sm trigger" data-toggle="modal" data-target="#exampleModal">Comprar
+                        entradas</a>
                 </div>
 
 
@@ -231,17 +240,67 @@
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Bienvenidos a GetPass</h5>
+
+
+                <div class="modal-header" id="buy">
+                    <h5 class="modal-title" id="exampleModalLabel">Adquirí tus entradas</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <i class="modal-close fa-solid fa-x mr-2"></i>
                     </button>
                 </div>
-                <div class="modal-body">
-                    <p>Un solo lugar donde encontrar los mejores eventos de tu ciudad</p>
-                    <p>Todavía no tienes una cuenta? <span id="sign-up">Regístrate gratis</span></p>
 
-                    <div class="d-flex flex-col flex-wrap justify-content-center">
+
+
+                <div class="modal-header modal-hidden" id="welcome">
+                    <h5 class="modal-title" id="exampleModalLabel">Bienvenidos a GetPass</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="close-welcome">
+                        <i class="modal-close fa-solid fa-x mr-2"></i>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+
+                    <img id="modal-img" class="modal-img mb-4" src="" alt="portada evento">
+
+                    <div id="modal-data">
+                        <div class="d-flex flex-column">
+                            <label for="tickets">Cantidad de entradas</label>
+                            <div class="d-flex justify-content-center mb-3 mt-2">
+                                <i class="fa-solid fa-circle-minus fa-2x" id="minus"></i>
+                                <input class="modal-input mx-2" type="text" id="tickets" name="tickets"
+                                    autocomplete="off">
+                                <i class="fa-solid fa-circle-plus fa-2x" id="plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="resume d-flex flex-column mb-3">
+                            <p>Resumen de tu compra</p>
+                            <p>Precio entrada: $ <span id="price">300</span> </p>
+                            <div class="d-flex">
+                                <p>Impuestos: $<span id="taxes">750</span> </p>
+                                <i class="fa-solid fa-circle-question ml-2"></i>
+                            </div>
+                            <P>Total: $ <span id="total"></span></P>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center" id="controls">
+                        <button id="purchase-btn" class="btn login-btn col-11 mb-4 p-1" type="submit">
+                            Finalizar compra
+                        </button>
+
+                        <button id="navigate-btn" class="btn navigate-btn col-11 mb-4 p-1" type="submit">
+                            Continuar navegando
+                        </button>
+                    </div>
+
+                    <div class="modal-hidden" id="top-description">
+                        <p>Un solo lugar donde encontrar los mejores eventos de tu ciudad</p>
+                        <p>Todavía no tienes una cuenta? <span id="sign-up">Regístrate gratis</span></p>
+                    </div>
+
+                    <div class="d-flex flex-col flex-wrap justify-content-center modal-hidden" id="modal-main-content">
                         <div class="modal-media-google col-11 md:w-1/2 p-1 mb-4">
                             <a class="w-full d-flex" ref="#">
                                 <img src="/assets/images/google-logo.jpg" style="width:25px; height:25px">
@@ -263,8 +322,8 @@
 
                                 <div class="d-flex flex-column col-12 md:w-1/2 px-0 mb-4 sign-up-modal modal-hidden">
                                     <label for="name">Name</label>
-                                    <input class="modal-input p-2" type="text" name="name" id="name"
-                                        placeholder="Joe" autocomplete="off" required>
+                                    <input class="modal-input p-2" type="text" name="name" id="name" placeholder="Joe"
+                                        autocomplete="off" required>
                                 </div>
 
                                 <div class="d-flex flex-column col-12 md:w-1/2 px-0 mb-4 sign-up-modal modal-hidden">
@@ -315,7 +374,7 @@
                                         placeholder="+5492316852741" required>
                                 </div>
 
-                                <button class="btn login-btn col-12 mb-5 p-1" type="submit">
+                                <button class="btn login-btn col-12 mb-5 p-1" id="login-btn" type="submit">
                                     Iniciar Sesión
                                 </button>
                                 <button class="btn login-btn col-12 mb-5 p-1 sign-up-modal modal-hidden" type="submit">
@@ -327,7 +386,8 @@
                         <p>Al dar click en el botón de login o continuar, acepto los <span>términos de uso </span> y
                             <span>política de privacidad </span> de GetPass
                         </p>
-                        <p class="modal-footer-login modal-hidden"">Ya tienes una cuenta? <span id="log-in">Inicia sesión</span></p>
+                        <p class="modal-footer-login modal-hidden"">Ya tienes una cuenta? <span id="log-in">Inicia
+                            sesión</span></p>
 
                     </div>
 
@@ -361,4 +421,5 @@
 <script src="slider.js"></script>
 <script src="copyright.js"></script>
 <script src="modal.js"></script>
+
 </html>
