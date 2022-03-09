@@ -31,10 +31,16 @@
                 <img class="logo" src="assets/images/logo-png.png" alt="">
                 <h1 class="title">GetPass</h1>
             </a>
-            <div class="navUser">
-                <a th:href="#"> Mi cuenta </a>
-                <a href="/emptyCart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <div class="d-flex">
+                <div class="navUser mr-4">
+                    <a href="/cargaEvento.html"> Cargar evento </a>
+                </div>
+                <div class="navUser">
+                    <a th:href="#"> Mi cuenta </a>
+                    <a href="/emptyCart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
             </div>
+
         </div>
         <nav>
             <ul class="categories">
@@ -78,9 +84,9 @@
 
     </form>
 
-    <!-- <section class="suscribe mb-5">
-        <button class="btn-suscribe">SUSCRIBITE</button>
-    </section> -->
+    <section class="suscribe mb-5">
+        <button class="btn-suscribe"><a href="/cargaMember.html"> SUSCRIBITE </a></button>
+    </section>
 
     <section class="row p-3 g-4 w-100 m-0">
 
@@ -386,7 +392,7 @@
                         <p>Al dar click en el botón de login o continuar, acepto los <span>términos de uso </span> y
                             <span>política de privacidad </span> de GetPass
                         </p>
-                        <p class="modal-footer-login modal-hidden"">Ya tienes una cuenta? <span id="log-in">Inicia
+                        <p class="modal-footer-login modal-hidden"">Ya tienes una cuenta? <span id=" log-in">Inicia
                             sesión</span></p>
 
                     </div>
@@ -397,7 +403,7 @@
         </div>
     </div>
 
-    <!-- <footer>
+    <footer>
         <div class="top-footer">
             <a th:href="#" class="navLogo">
                 <img class="logo" src="assets/images/logo-png.png" alt="">
@@ -414,7 +420,7 @@
         <div class="bottom-footer">
 
         </div>
-    </footer> -->
+    </footer>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
