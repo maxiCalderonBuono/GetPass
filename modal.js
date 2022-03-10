@@ -24,7 +24,7 @@ const modalData = document.getElementById("modal-data");
 const controls = document.getElementById("controls");
 const description = document.getElementById("top-description");
 const mainContent = document.getElementById("modal-main-content");
-const backdrop = document.getElementById("modal-backdrop");
+const modal = document.querySelector(".modal");
 
 signUp.addEventListener("click", (e) => {
   e.preventDefault();
@@ -88,7 +88,7 @@ buttons.forEach((button) => {
 
 closeWelcome.addEventListener("click", (e) => {
   e.preventDefault();
-  console.log("hola");
+  
   welcome.classList.add("modal-hidden");
   description.classList.add("modal-hidden");
   mainContent.classList.add("modal-hidden");
@@ -157,10 +157,20 @@ document.addEventListener('keydown', (e) => {
   const keyValue = e.which;
   if (keyValue == 27) {
     closeBtn.click();
-    console.log("hola");
     welcome.classList.add("modal-hidden");
     description.classList.add("modal-hidden");
     mainContent.classList.add("modal-hidden");
     logIn.click();
   }
 })
+
+let observer = new MutationObserver( () => {
+  welcome.classList.add("modal-hidden");
+  description.classList.add("modal-hidden");
+  mainContent.classList.add("modal-hidden");
+  logIn.click(); 
+  modalContent.style.height = "100%"
+});
+
+observer.observe(modal, {attributes:true});
+

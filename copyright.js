@@ -1,8 +1,8 @@
 
-bottomFooter= document.querySelector(".bottom-footer")
+ bottomFooter= document.querySelector(".bottom-footer")
 
-copyright=new Date();
+ copyright=new Date();
 
-update=copyright.getFullYear();
+ update=copyright.getFullYear();
 
-bottomFooter.innerText ="© Todos los derechos reservados - " + update + " " + "GetPass";
+ bottomFooter.innerText ="© Todos los derechos reservados - " + update + " " + "GetPass";
