@@ -183,6 +183,7 @@ footer {
 }
 
 .modal-content{
+  z-index: 3;
   height: 100vh;
   padding: 0.8rem;
 }
