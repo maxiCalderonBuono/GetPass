@@ -1,6 +1,7 @@
 
-const ulList = document.querySelector(".nav-body")
-const navIcon = document.getElementById("nav-icon")
+const ulList = document.querySelector(".nav-body");
+const userTools = document.querySelector(".user-tools");
+const navIcon = document.getElementById("nav-icon");
 
 $(document).ready(function(){
 	$('#nav-icon').click(function(){
@@ -8,10 +9,10 @@ $(document).ready(function(){
 	});
 });
 
-console.log(ulList)
 
 navIcon.addEventListener("click", () => {
     console.log("hello")
-    ulList.classList.toggle("nav-hidden")
+    ulList.classList.toggle("nav-hidden");
+    userTools.classList.toggle("nav-hidden");
 })
 
