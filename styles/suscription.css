@@ -32,7 +32,12 @@
 
 a, a:active,
 a:visited {
+  text-decoration: none;
   color: #fff;
+}
+
+.nav-pages {
+  border-bottom: 0.1rem solid #dae1e7;
 }
 
 .creditImg {
