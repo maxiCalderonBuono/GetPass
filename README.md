@@ -10,7 +10,7 @@ Nuesta idea se basa en los siguientes pilares fundamentales:
 - b) Sistema activo de seguimiento y notificaciones para evitar realizar *cola digital*. 
 - c) Diseño de un *camino feliz* para el usuario minimilasta y superintuitivo.
 
-# Stacks utilizados:
+# :computer: Stacks utilizados:
 
 <img alt="html5" width= "30px" align="left" src= "https://cdn-icons-png.flaticon.com/128/1051/1051277.png" />
 <img alt="css3" width= "30px" align="left" src= "https://cdn-icons-png.flaticon.com/128/732/732190.png" />
