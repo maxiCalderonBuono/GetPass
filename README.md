@@ -22,9 +22,11 @@ Nuesta idea se basa en los siguientes pilares fundamentales:
 
 # Integrantes del equipo :heart::
 
-- Tomás Muzzillo (frontend) @tmuzillo
-- Maximiliano Calderón (frontend) @maxiCalderonBuono
-- Pablo Capris (frontend) @caprispablo
-- Leandro Arriola (backend) @Landro9
-- Diego Martínez (backend) @kida10-tech
+- Tomás Muzzillo (frontend) 
+- Maximiliano Calderón (frontend) 
+- Pablo Capris (frontend) 
+- Leandro Arriola (backend) 
+- Diego Martínez (backend) 
+- Roxana Ternavasio (ux/ui)
+
 
