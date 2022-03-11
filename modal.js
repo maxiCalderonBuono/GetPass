@@ -81,11 +81,9 @@ buttons.forEach((button) => {
     // Capturar el thumbnail y mostrarlo en el modal
     const imgSrc = button.parentNode.parentNode.childNodes[1].src;
     modalImg.src = imgSrc;
+   
+    modalContent.style.height= "100%";
 
-    //modalDialog.style.height = "100vh";
-
-    modalContent.style.height = "100vh";
-    
     tickets.value = 1;
     total.innerText = Number(price.textContent) + Number(taxes.textContent);
 
@@ -187,6 +185,7 @@ document.addEventListener('keydown', (e) => {
     mainContent.classList.add("modal-hidden");
     endPurchase.classList.add("modal-hidden");
   payment.classList.add("modal-hidden");
+  modalContent.classList.remove("content-important");
     logIn.click();
   }
 })
@@ -197,6 +196,7 @@ let observer = new MutationObserver( () => {
   mainContent.classList.add("modal-hidden");
   endPurchase.classList.add("modal-hidden");
   payment.classList.add("modal-hidden");
+  modalContent.classList.remove("content-important");
   logIn.click(); 
   //modalContent.style.height = "100%"
 });
@@ -209,6 +209,7 @@ loginBtn.addEventListener("click" , ()=> {
   description.classList.add("modal-hidden");
   mainContent.classList.add("modal-hidden");
   payment.classList.remove("modal-hidden");
+  modalContent.classList.add("content-important")
 })
 
 

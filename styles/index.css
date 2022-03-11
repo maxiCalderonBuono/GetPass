@@ -68,10 +68,16 @@ body {
 }
 
 .modal-content {
+  height: 100% !important;
   padding: 0.8rem;
 }
 
+.content-important {
+  height: 100vh !important;
+}
+
 .modal-dialog {
+ 
   margin: 0;
 }
 
