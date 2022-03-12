@@ -1,0 +1,13 @@
+/* Mobile First */
+
+.splide__list img {
+    width: 100%;
+    height: 230px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .splide__list img {
+      height: 500px;
+    }
+  
+  }
