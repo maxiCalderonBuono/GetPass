@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Entrance Management Software :rocket: 
 by Grupo G64 - work in progress!
 
@@ -33,3 +34,6 @@ Nuesta idea se basa en los siguientes pilares fundamentales:
 - Roxana Ternavasio (ux/ui)
 
 
+=======
+# GetPass
+>>>>>>> f92a9fe3d116e8a2a41571e1419e93b03f099be7
