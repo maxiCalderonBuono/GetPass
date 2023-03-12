@@ -1,8 +1,9 @@
+# Entrance Management Software :rocket:
 
-# Entrance Management Software :rocket: 
 by Grupo G64 - work in progress!
 
-# :white_check_mark: Demo: 
+# :white_check_mark: Demo:
+
 ### [GetPass Web](https://getpass-app.netlify.app/index.html)
 
 # :bulb: La Idea :point_right:
@@ -11,8 +12,8 @@ El proyecto consiste en rediseñar la experiencia de usuario a la hora de adquir
 Nuesta idea se basa en los siguientes pilares fundamentales:
 
 - a) Club de beneficios para suscriptores.
-- b) Sistema activo de seguimiento y notificaciones para evitar realizar *cola digital*. 
-- c) Diseño de un *camino feliz* para el usuario minimilasta y superintuitivo.
+- b) Sistema activo de seguimiento y notificaciones para evitar realizar _cola digital_.
+- c) Diseño de un _camino feliz_ para el usuario minimilasta y superintuitivo.
 
 # :computer: Stacks utilizados:
 
@@ -23,14 +24,11 @@ Nuesta idea se basa en los siguientes pilares fundamentales:
 <img alt="javascript" width= "30px" align="left" src= "https://avatars.githubusercontent.com/u/1134463?v=4" />
 <img alt="javascript" width= "30px" align="left" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXL2L5LWSonB-AZD4D_5GxZBbew3jbUoZ9yVN8fFBttOXljVlGA3SnGm5pVY2s9DK4tv0&usqp=CAU" />.
 
-
 # Integrantes del equipo :heart::
 
-- Tomás Muzzillo (frontend) 
-- Maximiliano Calderón (frontend) 
-- Pablo Capris (frontend) 
-- Leandro Arriola (backend) 
-- Diego Martínez (backend) 
+- Tomás Muzzillo (frontend)
+- Maximiliano Calderón (frontend)
+- Pablo Capris (frontend)
+- Leandro Arriola (backend)
+- Diego Martínez (backend)
 - Roxana Ternavasio (ux/ui)
-
-
