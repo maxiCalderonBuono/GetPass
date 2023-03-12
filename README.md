@@ -4,7 +4,7 @@ by Grupo G64 - work in progress!
 
 # :white_check_mark: Demo:
 
-### [GetPass Web](https://getpass-app.netlify.app/index.html)
+### [GetPass Web](https://getpassapp.netlify.app/)
 
 # :bulb: La Idea :point_right:
 
