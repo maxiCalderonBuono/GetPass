@@ -1,8 +1,7 @@
-# Entrance Management Software :rocket:
+# Google sheets database e-commerce
 
 This project is from 2021
 
-by Grupo G64 - work in progress!
 
 # :white_check_mark: Demo:
 
